@@ -7,4 +7,7 @@ const roman_numerals = require('./app');
 test("return V when 5", () => {
   expect(roman_numerals(5)).toBe("V");
 });
-//your turn
+
+test("return X when 10", () => {
+    expect(roman_numerals(10)).toBe("X");
+  });
